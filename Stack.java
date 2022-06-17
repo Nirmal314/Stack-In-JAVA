@@ -98,7 +98,6 @@ class St<T> implements stk<T> {
 public class Stack {
     public static void main(String[] args) {
         St<Integer> s = new St<Integer>(5);
-        System.out.println("Stack created!");
         s.push(1); // ? push
         s.push(2); // ? push
         s.push(3); // ? push
